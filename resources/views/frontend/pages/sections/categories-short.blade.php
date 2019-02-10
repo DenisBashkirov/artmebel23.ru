@@ -30,6 +30,12 @@
                 <p class="categories-short__item-text">мягкая мебель</p>
             </a>
 
+            <a href="{{ route('category', 'chairs') }}" class="categories-short__item">
+                <img src="{{ asset('public/img/sections/categories-short/chairs.jpg') }}" alt="кресла" class="categories-short__item-img">
+                <span class="categories-short__item-arrow"><span class="icon-arrow-right"></span></span>
+                <p class="categories-short__item-text">кресла</p>
+            </a>
+
         </div>
 
     </div>
