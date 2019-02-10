@@ -3721,3 +3721,13 @@ ul {
   opacity: 1;
   letter-spacing: 2px;
 }
+
+.category__item-title {
+  font-size: 18px;
+}
+
+@media (min-width:768px) {
+  .category__item-title {
+    font-size: 28px;
+  }
+}
